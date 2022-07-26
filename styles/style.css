@@ -1,44 +1,22 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html, body {
+  font-family: "Roboto", sans-serif;
 }
 
-.container {
-  display: flex;
-  height: 100vh;
-}
-.container .esquerdo {
-  width: 50vw;
-  background-color: #15BFAE;
-}
-.container .esquerdo .texto {
-  color: #BF15B0;
-  margin: 50% 0;
-  font-size: 5rem;
+nav {
   text-align: center;
-  cursor: pointer;
-  transition: 0.3s all ease-in-out;
 }
-.container .esquerdo .texto:hover {
-  border-bottom: 1px solid #BF15B0;
-  padding: 1.5rem;
-  opacity: 0.4;
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
 }
-.container .direito {
-  width: 50vw;
-  background-color: #BF15B0;
+nav ul li a {
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #193140;
+  transition: 0.3s;
 }
-.container .direito .texto {
-  color: #15BFAE;
-  margin: 50% 0;
-  font-size: 5rem;
-  text-align: center;
-  cursor: pointer;
-  transition: 0.3s all ease-in-out;
-}
-.container .direito .texto:hover {
-  border-bottom: 1px solid #15BFAE;
-  padding: 1.5rem;
-  opacity: 0.4;
+nav ul li a:hover {
+  color: #51768C;
+  border-bottom: 1px solid #51768C;
 }/*# sourceMappingURL=style.css.map */
