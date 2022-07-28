@@ -127,4 +127,44 @@ nav ul li a:hover {
 .cupom__input:hover, .cupom__input:focus-within {
   box-shadow: 1px 1px 8px 1px #193140;
   outline: none;
+}
+.cupom button {
+  background-color: #193140;
+  border: 1px solid #BFA450;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #736439;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 0.75rem;
+  outline: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out all;
+}
+.cupom button:hover {
+  background-color: #BFA450;
+  border: 1px solid #193140;
+  color: #193140;
+}
+.cupom button:focus-within {
+  background-color: #BFA450;
+  border: 1px solid #193140;
+  color: #193140;
+  box-shadow: 5px 5px 5px 1px #193140;
+  outline: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #193140;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #193140, #51768C, #80A7BF);
+}
+footer i {
+  color: #c52929;
 }/*# sourceMappingURL=style.css.map */

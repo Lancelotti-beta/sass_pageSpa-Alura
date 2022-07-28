@@ -12,10 +12,6 @@
             margin: 2rem;
         }
     }
-    // &__inscrevase {
-        
-    // }
-    
     &__input {
         background-color: #fff;
         border: 4px solid #fff;
@@ -37,6 +33,35 @@
             box-shadow: 1px 1px 8px 1px $cor-primaria;
             outline: none;
         }
+    }
+    button {
+        background-color: $cor-primaria;
+        border: 1px solid $cor-efeito-secundaria;
+        border-radius: 20px;
+        cursor: pointer;
+        color: $cor-terciaria;
+        font-size: $tamanho-do-texto / 3;
+        font-weight: 800;
+        letter-spacing: 1px;
+        margin: .75rem;
+        outline: none;
+        padding: 1rem 2rem;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.3s ease-in-out all;
+        &:hover {
+            background-color: $cor-efeito-secundaria;
+            border: 1px solid $cor-primaria;
+            color: $cor-primaria;
+        }
+        &:focus-within {
+            background-color: $cor-efeito-secundaria;
+            border: 1px solid $cor-primaria;
+            color: $cor-primaria;
+            box-shadow: 5px 5px 5px 1px $cor-primaria;
+            outline: none;
+        }
+
     }
 
 }
