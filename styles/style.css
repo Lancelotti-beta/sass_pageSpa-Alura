@@ -157,6 +157,40 @@ nav ul li a:hover {
   outline: none;
 }
 
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem 1rem;
+}
+.sobre__image {
+  padding: 1rem;
+}
+.sobre__image img {
+  width: 100%;
+}
+.sobre__texto {
+  padding: 1rem 2rem;
+}
+.sobre__texto h3 {
+  color: #193140;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 0.75rem;
+}
+.sobre__texto h4 {
+  color: #51768C;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.sobre__texto p {
+  color: #193140;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
 footer {
   text-align: center;
   font-size: 1.5rem;
